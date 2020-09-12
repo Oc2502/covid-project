@@ -1,0 +1,25 @@
+body{
+    font-family: monospace;
+    background-color: rgba(71, 71, 238, 0.918);
+}
+
+.container h1 {
+    background-image: url("./image/mainBar.jpg");
+    margin: 0;
+    padding: 40px;
+    height: 100px;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+.chart-container {
+    position: relative;
+    /* width: 50vw; */
+    margin: auto;
+}
+
+.btn {
+    margin: 5px;
+    padding: 5px;
+    
+}

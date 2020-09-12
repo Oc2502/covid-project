@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./normalize.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <!---note: defer -> load after page load-->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+      defer
+    ></script>
+    <script src="./chart.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>COVID-19</h1>
+      <div> 
+          <span>Choose your continent</span>
+          <button id="asia" class="btn">Asia</button>
+          <button id="europe" class="btn">Europe</button>
+          <button id="africa" class="btn">Africa</button>
+          <button id="america" class="btn">America</button>
+                  
+      </div>
+      <div class="chart-container">
+        <canvas id="chart" width="400" height="100"></canvas>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
+</html>
